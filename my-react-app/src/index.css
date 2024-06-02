@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(32, 31, 31);
+}
+
+
+.to-do-list-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .to-do-list-header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .to-do-list-header input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 400px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  
+  .to-do-list-header .set-new-task {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .to-do-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .to-do-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .to-do-list .text {
+    flex-grow: 1;
+    padding: 0 10px;
+  }
+  
+  .to-do-list .delete-button,
+  .to-do-list .move-task-up-button,
+  .to-do-list .move-task-down-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .to-do-list .move-task-up-button,
+  .to-do-list .move-task-down-button {
+    background-color: #008CBA;
+  }
+  
+  .to-do-list .delete-button:hover,
+  .to-do-list .move-task-up-button:hover,
+  .to-do-list .move-task-down-button:hover {
+    opacity: 0.8;
+  }
+
+h1 {
+    color: white
+}
